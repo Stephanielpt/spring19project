@@ -7,16 +7,24 @@
 //
 
 #import "ViewController.h"
+#import <Firebase/Firebase.h>
 
 @interface ViewController ()
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 @end
 
 @implementation ViewController
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.ref = [[FIRDatabase database] reference];
+    [[[self.ref child:@"users"] child:@"amazing"]
+     setValue:@{@"username": @"slampo"}];
 }
 
 

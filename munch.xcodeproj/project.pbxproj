@@ -15,6 +15,10 @@
 		129B5B4822417DF400A74F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129B5B4722417DF400A74F55 /* main.m */; };
 		129B5B5222417DF400A74F55 /* munchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 129B5B5122417DF400A74F55 /* munchTests.m */; };
 		129B5B5D22417DF400A74F55 /* munchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 129B5B5C22417DF400A74F55 /* munchUITests.m */; };
+		129B5B6D22417F8900A74F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 129B5B6C22417F8900A74F55 /* GoogleService-Info.plist */; };
+		24BF4E9E9FADC805028BE1EE /* libPods-munchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB9DE34E2F4D9979E157F57 /* libPods-munchUITests.a */; };
+		B8AFCF1C795F929836A08972 /* libPods-munchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EF8C01A4A605EAE44028D3 /* libPods-munchTests.a */; };
+		E566762D3C94D3CB3A83B370 /* libPods-munch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CE67CA0EC0AE410B230526 /* libPods-munch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		129B5B5822417DF400A74F55 /* munchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = munchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		129B5B5C22417DF400A74F55 /* munchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = munchUITests.m; sourceTree = "<group>"; };
 		129B5B5E22417DF400A74F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129B5B6C22417F8900A74F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47CE67CA0EC0AE410B230526 /* libPods-munch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-munch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB9DE34E2F4D9979E157F57 /* libPods-munchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-munchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DB9FA0B9ABECB21B2CC0CD /* Pods-munchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munchTests.debug.xcconfig"; path = "Target Support Files/Pods-munchTests/Pods-munchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2EF8C01A4A605EAE44028D3 /* libPods-munchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-munchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C5D6893BEA59D918D086C7 /* Pods-munchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munchTests.release.xcconfig"; path = "Target Support Files/Pods-munchTests/Pods-munchTests.release.xcconfig"; sourceTree = "<group>"; };
+		B66025C24702052DF9166CF8 /* Pods-munch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munch.release.xcconfig"; path = "Target Support Files/Pods-munch/Pods-munch.release.xcconfig"; sourceTree = "<group>"; };
+		C81BD5F62931568756BC7363 /* Pods-munchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munchUITests.debug.xcconfig"; path = "Target Support Files/Pods-munchUITests/Pods-munchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF95CC42BA6CF76C229CB4C4 /* Pods-munchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munchUITests.release.xcconfig"; path = "Target Support Files/Pods-munchUITests/Pods-munchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E562B846FE4DD2E12063A9EE /* Pods-munch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munch.debug.xcconfig"; path = "Target Support Files/Pods-munch/Pods-munch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E566762D3C94D3CB3A83B370 /* libPods-munch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8AFCF1C795F929836A08972 /* libPods-munchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BF4E9E9FADC805028BE1EE /* libPods-munchUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				129B5B5022417DF400A74F55 /* munchTests */,
 				129B5B5B22417DF400A74F55 /* munchUITests */,
 				129B5B3622417DF400A74F55 /* Products */,
+				4C06F2546450EDEF5115C462 /* Pods */,
+				7E34F5600B74E159282FB51E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +127,7 @@
 				129B5B3E22417DF400A74F55 /* Main.storyboard */,
 				129B5B4122417DF400A74F55 /* Assets.xcassets */,
 				129B5B4322417DF400A74F55 /* LaunchScreen.storyboard */,
+				129B5B6C22417F8900A74F55 /* GoogleService-Info.plist */,
 				129B5B4622417DF400A74F55 /* Info.plist */,
 				129B5B4722417DF400A74F55 /* main.m */,
 			);
@@ -132,6 +152,29 @@
 			path = munchUITests;
 			sourceTree = "<group>";
 		};
+		4C06F2546450EDEF5115C462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E562B846FE4DD2E12063A9EE /* Pods-munch.debug.xcconfig */,
+				B66025C24702052DF9166CF8 /* Pods-munch.release.xcconfig */,
+				87DB9FA0B9ABECB21B2CC0CD /* Pods-munchTests.debug.xcconfig */,
+				B4C5D6893BEA59D918D086C7 /* Pods-munchTests.release.xcconfig */,
+				C81BD5F62931568756BC7363 /* Pods-munchUITests.debug.xcconfig */,
+				CF95CC42BA6CF76C229CB4C4 /* Pods-munchUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E34F5600B74E159282FB51E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47CE67CA0EC0AE410B230526 /* libPods-munch.a */,
+				B2EF8C01A4A605EAE44028D3 /* libPods-munchTests.a */,
+				4FB9DE34E2F4D9979E157F57 /* libPods-munchUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129B5B6122417DF400A74F55 /* Build configuration list for PBXNativeTarget "munch" */;
 			buildPhases = (
+				5BDB34D0B0843C3A715B9E9D /* [CP] Check Pods Manifest.lock */,
 				129B5B3122417DF400A74F55 /* Sources */,
 				129B5B3222417DF400A74F55 /* Frameworks */,
 				129B5B3322417DF400A74F55 /* Resources */,
@@ -156,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129B5B6422417DF400A74F55 /* Build configuration list for PBXNativeTarget "munchTests" */;
 			buildPhases = (
+				9A5A681FE453EAFBE294FFA7 /* [CP] Check Pods Manifest.lock */,
 				129B5B4922417DF400A74F55 /* Sources */,
 				129B5B4A22417DF400A74F55 /* Frameworks */,
 				129B5B4B22417DF400A74F55 /* Resources */,
@@ -174,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129B5B6722417DF400A74F55 /* Build configuration list for PBXNativeTarget "munchUITests" */;
 			buildPhases = (
+				438CD004C4DE3AE3971EA94F /* [CP] Check Pods Manifest.lock */,
 				129B5B5422417DF400A74F55 /* Sources */,
 				129B5B5522417DF400A74F55 /* Frameworks */,
 				129B5B5622417DF400A74F55 /* Resources */,
@@ -239,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				129B5B4522417DF400A74F55 /* LaunchScreen.storyboard in Resources */,
+				129B5B6D22417F8900A74F55 /* GoogleService-Info.plist in Resources */,
 				129B5B4222417DF400A74F55 /* Assets.xcassets in Resources */,
 				129B5B4022417DF400A74F55 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +306,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438CD004C4DE3AE3971EA94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-munchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDB34D0B0843C3A715B9E9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-munch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5A681FE453EAFBE294FFA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-munchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		129B5B3122417DF400A74F55 /* Sources */ = {
@@ -428,6 +532,7 @@
 		};
 		129B5B6222417DF400A74F55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E562B846FE4DD2E12063A9EE /* Pods-munch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +547,7 @@
 		};
 		129B5B6322417DF400A74F55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66025C24702052DF9166CF8 /* Pods-munch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +562,7 @@
 		};
 		129B5B6522417DF400A74F55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DB9FA0B9ABECB21B2CC0CD /* Pods-munchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +578,7 @@
 		};
 		129B5B6622417DF400A74F55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C5D6893BEA59D918D086C7 /* Pods-munchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +594,7 @@
 		};
 		129B5B6822417DF400A74F55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81BD5F62931568756BC7363 /* Pods-munchUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VXY7J79LR;
@@ -500,6 +609,7 @@
 		};
 		129B5B6922417DF400A74F55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF95CC42BA6CF76C229CB4C4 /* Pods-munchUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VXY7J79LR;
